@@ -1,0 +1,9 @@
+{
+    "pylint.args": [
+        "--disable=C0103,W0718"
+    ],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/modules/"
+    ]
+}

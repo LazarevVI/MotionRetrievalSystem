@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"python.formatting.provider": "black",
+		"python.linting.pycodestyleEnabled": true,
+		"python.linting.enabled": true,
+		"autoDocstring.docstringFormat": "sphinx",
+		"python.envFile": "${workspaceFolder}/.env",
+		"terminal.integrated.env.windows": {
+			"PYTHONPATH": "${workspaceFolder}/modules/"
+		},
+		"python.analysis.extraPaths": [
+			"${workspaceFolder}/modules/"
+		]
+	}
+}
